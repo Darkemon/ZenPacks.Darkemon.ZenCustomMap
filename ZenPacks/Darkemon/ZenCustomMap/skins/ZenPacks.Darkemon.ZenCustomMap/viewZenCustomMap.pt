@@ -1,0 +1,60 @@
+<!--
+###########################################################################
+#
+# This program is part of Zenoss Core, an open source monitoring platform.
+# Copyright (C) 2009, Zenoss Inc.
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License version 2 as published by
+# the Free Software Foundation.
+#
+# For complete information please visit: http://www.zenoss.com/oss/
+#
+###########################################################################
+-->
+
+<tal:block metal:use-macro="context/page_macros/base-new">
+
+<tal:block metal:fill-slot="title">ZenCustomMap</tal:block>
+
+
+<tal:block metal:fill-slot="head-local">
+
+    <script type="text/javascript" src="/++resource++zenui/js/swfobject/2.2/swfobject.js"></script>
+    <style type="text/css">
+      #center { height: 100%; overflow: hidden;}
+      #networkmap {
+        height: 91%;
+        overflow: hidden;
+        position: relative;
+      }
+    </style>
+
+</tal:block>
+
+
+<tal:block metal:fill-slot="center_panel_content">
+<div id="networkmap">
+  <a href="http://www.adobe.com/go/getflashplayer">
+    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+         alt="Get Adobe Flash player" />
+  </a>
+</div>
+</tal:block>
+
+<tal:block metal:fill-slot="script_afterLayout">
+<!-- Use this slot to perform any post-layout steps. -->
+    <script type="text/javascript">
+        Ext.onReady(function(){
+            var flashvars = {};
+            var params = {};
+            params.swliveconnect = "true";
+            params.allowscriptaccess = "always";
+            params.allownetworking = "all";
+            var attributes = {};
+            swfobject.embedSWF("./ZenCustomMap.swf","networkmap","100%","100%","10.0.0",
+            "/++resource++zenui/js/swfobject/2.2/expressInstall.swf",flashvars,params,attributes);
+        });
+    </script>
+</tal:block>
+</tal:block> <!-- metal:use-macro="context/page_macros/masterdetailsplit2" -->
