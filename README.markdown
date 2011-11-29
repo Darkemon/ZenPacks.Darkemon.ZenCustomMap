@@ -12,4 +12,4 @@ Requires Flash Player version 10 or higher.
 
 ## Screenshots
 
-![Common view](https://github.com/Darkemon/ZenPacks.Darkemon.ZenCustomMap/tree/master/screenshots/common_view.png)
+![Common view](https://github.com/Darkemon/ZenPacks.Darkemon.ZenCustomMap/raw/master/screenshots/common_view.png)
