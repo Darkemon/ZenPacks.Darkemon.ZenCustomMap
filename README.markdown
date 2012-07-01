@@ -10,7 +10,7 @@ This ZenPack is compatible with Zenoss versions 3.x.
 
 Requires Flash Player version 10 or higher.
 
-The sources of the Flash part see on (http://code.google.com/p/zen-custom-map/)
+The sources of the Flash part see on http://code.google.com/p/zen-custom-map/
 
 ## Screenshots
 
