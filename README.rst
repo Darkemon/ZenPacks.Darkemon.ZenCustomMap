@@ -57,7 +57,7 @@ Screenshots
 
 .. _Zenoss: http://community.zenoss.org
 
-.. _Latest Package: https://github.com/downloads/bobmA/ZenPacks.Darkemon.ZenCustomMap/ZenPacks.Darkemon.ZenCustomMap-3.0-py2.7.egg
+.. _Latest Package: https://github.com/downloads/Darkemon/ZenPacks.Darkemon.ZenCustomMap/ZenPacks.Darkemon.ZenCustomMap-3.0-py2.7.egg
 
 .. _Zenpack Development Process: http://community.zenoss.org/docs/DOC-8495
 
