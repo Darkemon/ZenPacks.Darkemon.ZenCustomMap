@@ -29,7 +29,7 @@ Normal Installation (packaged egg)
 Download the `Latest Package`_
 
 
-Then copy it to your Zenoss server.  Remove "-py2.7" from the egg title and then run the following commands as the zenoss
+Then copy it to your Zenoss server.  If there is a problem installing try removing "-py2.7" from the egg title and then run the following commands as the zenoss
 user::
 
     zenpack --install <package.egg>
@@ -57,7 +57,7 @@ Screenshots
 
 .. _Zenoss: http://community.zenoss.org
 
-.. _Latest Package: https://github.com/downloads/zenoss/ZenPacks.Darkemon.ZenCustomMap/ZenPacks.Darkemon.ZenCustomMap-2.1.egg
+.. _Latest Package: https://github.com/downloads/Darkemon/ZenPacks.Darkemon.ZenCustomMap/ZenPacks.Darkemon.ZenCustomMap-3.0-py2.7.egg
 
 .. _Zenpack Development Process: http://community.zenoss.org/docs/DOC-8495
 
