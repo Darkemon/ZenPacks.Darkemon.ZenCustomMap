@@ -8,4 +8,5 @@
 # graft ZenPacks
 include *.py
 include *.swf
+#include *.rst
 
